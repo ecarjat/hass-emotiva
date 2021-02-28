@@ -16,13 +16,8 @@ from homeassistant.const import (
     STATE_ON,
     STATE_OFF
 )
-import homeassistant.helpers.config_validation as cv
-import homeassistant.util.dt as dt_util
-
 
 _LOGGER = logging.getLogger(__name__)
-
-DEFAULT_NAME = "RMC-1"
 
 SUPPORT_EMOTIVA = (
     SUPPORT_TURN_ON
@@ -38,7 +33,7 @@ SUPPORT_EMOTIVA = (
 def setup_platform(hass, config, add_entities, discovery_info=None):
     """Set up the Emotiva platform."""
 
-    from pymotiva import Emotiva
+    from custom_components.emotiva.pymotiva import Emotiva
     add_entities(EmotivaDevice(Emotiva(ip, info))
                 for ip, info in Emotiva.discover())
 
