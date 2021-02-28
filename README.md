@@ -13,7 +13,7 @@ The custom component will soon be available via
 
 ### Manual Install
 
-If you want to install the custom commponent manually, add the folder `hass_emotiva/` to `YOUR_CONFIG_DIR/custom_components/`.
+If you want to install the custom commponent manually, add the folder `emotiva/` to `YOUR_CONFIG_DIR/custom_components/`.
 
 ### Requirements
 The component has only been tested with an XMC-1 so it might not work with other Emotiva devices.
@@ -25,4 +25,4 @@ Open the configuration file (`configuration.yaml`) and add the following
 media_player:
   - platform: emotiva
 ```
-If an Emotiva devivce is detected on teh network it will show up under entities with the name `media_player.[device_name]_[model_name]`
+If an Emotiva devivce is detected on the network it will show up under entities with the name `media_player.[device_name]_[model_name]`
