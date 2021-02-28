@@ -1,4 +1,4 @@
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/ecarjat/hass-emotiva?style=for-the-badge) ![GitHub Release Date](https://img.shields.io/github/v/release-date/ecarjat/hass-emotiva?style=for-the-badge)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ecarjat/hass-emotiva?style=for-the-badge) ![GitHub Release Date](https://img.shields.io/github/release-date/ecarjat/hass-emotiva?style=for-the-badge)
 
 # Emotiva integration for Home Assistant
 The emotiva integration identifies Emotiva devices on the network and adds them as entities in Home Asssitant
